@@ -2,5 +2,5 @@ media: files
 content:
   - name: articles
     label: Articles
-    type: file
+    type: collection
     path: content/articles
