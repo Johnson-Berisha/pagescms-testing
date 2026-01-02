@@ -4,3 +4,5 @@ content:
     label: Articles
     type: collection
     path: content/articles
+    fields:
+    - { name: title, label: Title, type: string }
