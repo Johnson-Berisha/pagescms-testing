@@ -2,11 +2,14 @@ media: files
 content:
   - name: articles
     label: Articles
+    format: "json"
+    filename: '{fields.slug}.json'
     type: collection
     path: content/articles
     subfolders: true
     fields:
     - { name: title, label: Title, type: string }
     - { name: category, label: category, type: string }
+    - { name: slug, label: Slug, type: string }
     - { name: excerpt, label: excerpt, type: string }
     - { name: body, label: Body, type: rich-text }
