@@ -1,1 +1,6 @@
 media: files
+content:
+  - name: articles
+    label: Articles
+    type: file
+    path: content/articles
