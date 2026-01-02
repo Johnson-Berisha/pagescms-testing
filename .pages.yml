@@ -4,5 +4,6 @@ content:
     label: Articles
     type: collection
     path: content/articles
+    subfolders: true
     fields:
     - { name: title, label: Title, type: string }
